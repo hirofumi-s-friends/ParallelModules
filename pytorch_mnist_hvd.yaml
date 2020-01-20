@@ -21,4 +21,4 @@ implementation:
     - --epochs
     - inputValue: Epochs
     - --output-model
-    - outputPath: Output model
+    - outputPath: Output Model
