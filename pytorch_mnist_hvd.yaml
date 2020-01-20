@@ -1,6 +1,6 @@
 name: PyTorch MNIST horovod
 id: efd1af54-0d31-42e1-b3d5-ce3b7c538123
-version: 0.0.1
+version: 0.0.2
 category: Distributed
 description: "An example code of horovod distributed train."
 inputs:
