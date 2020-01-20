@@ -31,6 +31,8 @@ parser.add_argument('--fp16-allreduce', action='store_true', default=False,
 parser.add_argument('--use-adasum', action='store_true', default=False,
                     help='use adasum algorithm to do reduction')
 
+parser.add_argument('--output-model', default='./')
+
 args = parser.parse_args()
 args.cuda = not args.no_cuda and torch.cuda.is_available()
 
