@@ -1,0 +1,10 @@
+name: pytorch_hvd
+channels:
+- defaults
+dependencies:
+- python=3.6.8
+- pip:
+  - torch
+  - torchvision
+  - mpi4py
+  - horovod
